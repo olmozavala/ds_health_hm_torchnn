@@ -57,3 +57,6 @@ to make a test bed where you can:
 The widget should show the following plots: 
 1. Figure 1. Observations to be approximated and the function approximated by the trained model.
 2. Figure 2. The loss function for each epoch.
+
+Example:
+![](./images/ExampleOutput.png)
