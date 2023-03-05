@@ -36,8 +36,8 @@ receives the following parameters:
 * **y**. The output data to be used in the training. 
 * **optimizer**. The optimizer to be used in the training. 
 * **loss**. The loss function to be used in the training. (default value: `nn.MSELoss()`)
-* **model**. The model to be trained. (default value: DenseModel())
-* **epochs**. Number of epochs to train the model. (default value: 500)
+* **model**. The model to be trained. (default value: `DenseModel()`)
+* **epochs**. Number of epochs to train the model. (default value: `500`)
 
 The function should train the model for the specified number of epochs and return:
 1. The loss function for each epoch as a list.
