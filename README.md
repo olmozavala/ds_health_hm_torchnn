@@ -1,4 +1,4 @@
-#  PyTorch NN Basics and HiperGator storage
+#  PyTorch NN Basics
 
 The objective of this homework is to apply some of the tools we have learned so far (widgets, GitHub, PyTorch, and NN) 
 to build a test bed to evaluate multiple NN parameters easily. 
