@@ -79,7 +79,7 @@ The widget should show the following plots:
 2. Figure 2. The training and validation loss function or each epoch.
 
 Example:
-![](./images/ExampleOutput.png)
+![](./images/ExampleOutputN.png)
 
 ## 5 Neural network analysis (10)
 Please identify a set of parameters that show the following:
