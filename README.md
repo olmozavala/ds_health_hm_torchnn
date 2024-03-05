@@ -62,7 +62,7 @@ The function should train the model for the specified number of epochs and retur
 2. The validation loss function for each epoch as a list.
 3. The trained model.
 
-## Make your test bed (10)
+## 4 Make your test bed (10)
 Following the provided jupyter notebook called **TestBed.py** fill the missing code of the widget
 to make a test bed where you can:
 
@@ -81,13 +81,13 @@ The widget should show the following plots:
 Example:
 ![](./images/ExampleOutput.png)
 
-## 4 Neural network analysis (10)
+## 5 Neural network analysis (10)
 Please identify a set of parameters that show the following:
 
 1. **Overfitting** (5) Can you show an example of overfitting? What parameters did you use? why do you think it is overfitting? Show a plot of your training and validation loss that corresponds to the overfitting example.
 2. **Underfitting** (5) Can you show an example of underfitting? What parameters did you use? why do you think it is underfitting? Show a plot of your training and validation loss that corresponds to the underfitting example. 
 
-## 5 Extra points batch normalization (10)
+## 6 Extra points batch normalization (10)
 Inside **MyModels.py** create a class called **DenseModelBN** that
 includes a parameter for batch normalization. If the parameter is true then include BN after each hidden layer.
 
