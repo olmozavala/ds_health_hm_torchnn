@@ -13,7 +13,7 @@ The parameters we will be able to test in real time are:
 4. Activation function used in the output layer (Sigmoid, Tanh, ReLu, Linear)
 5. Number of epochs to train the model.
 
-## Make a *dataset* to create random samples from different functions (10) 
+## 1 Make a *dataset* to create random samples from different functions (10) 
 Inside **MyDatasets.py** create a class called **SimpleFunctionsDataset** that
 receives the following parameters in the constructor:
 * **n_samples**. Number of samples to be generated. (default value 100)
@@ -29,7 +29,7 @@ contain the required methods to be used in a `torch.utils.data.DataLoader` (e.g.
 
 **IMPORTANT** Normalize your output data to be mean 0 and standard deviation 1. 
 
-## Make a *dynamic* NN module (10) 
+## 2 Make a *dynamic* NN module (10) 
 Inside **MyModels.py** create a class called **DenseModel** that
 imports from **nn.Module** and receives the following parameters in the constructor:
 
@@ -44,7 +44,7 @@ Depending on the input values, the constructor should create the appropriate num
 
 Finally, create a **forward** method that receives the input data and returns the output of the previously created NN model.
 
-## Make a *dynamic* Training module (10) 
+## 3 Make a *dynamic* Training module (10) 
 Inside **MyTraining.py** create a function called **Training** that
 receives the following parameters:
 
@@ -81,13 +81,13 @@ The widget should show the following plots:
 Example:
 ![](./images/ExampleOutput.png)
 
-## Neural network analysis (10)
+## 4 Neural network analysis (10)
 Please identify a set of parameters that show the following:
 
 1. **Overfitting** (5) Can you show an example of overfitting? What parameters did you use? why do you think it is overfitting? Show a plot of your training and validation loss that corresponds to the overfitting example.
 2. **Underfitting** (5) Can you show an example of underfitting? What parameters did you use? why do you think it is underfitting? Show a plot of your training and validation loss that corresponds to the underfitting example. 
 
-## Extra points batch normalization (10)
+## 5 Extra points batch normalization (10)
 Inside **MyModels.py** create a class called **DenseModelBN** that
 includes a parameter for batch normalization. If the parameter is true then include BN after each hidden layer.
 
